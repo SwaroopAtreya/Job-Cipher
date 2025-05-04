@@ -35,42 +35,41 @@ A job search and career management platform that helps users find and track job 
    ```bash
    git clone https://github.com/yourusername/jobcipher-connect.git
    cd jobcipher-connect
-   ```
+Install dependencies
 
-2. Install dependencies
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
+bash
+Copy
+Edit
+npm install
+# or
+yarn install
+Set up environment variables
 
-3. Set up environment variables
-   - Copy `.env.example` to `.env.local`
-   - Fill in your Supabase and AWS credentials
+Copy .env.example to .env.local
 
-4. Start the development server
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
+Fill in your Supabase and AWS credentials
 
-## Environment Variables
+Start the development server
 
+bash
+Copy
+Edit
+npm run dev
+# or
+yarn dev
+Environment Variables
 The following environment variables are required:
 
-```
+
+
+
 NEXT_PUBLIC_AWS_ACCESS_KEY_ID=your_aws_access_key_id
 NEXT_PUBLIC_AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
 NEXT_PUBLIC_AWS_REGION=your_aws_region
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
-
-## Contributing
-
+Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
-
+License
 This project is licensed under the MIT License - see the LICENSE file for details.

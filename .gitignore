@@ -43,3 +43,4 @@ build
 .tmp
 .vercel
 .next
+node_modules/
